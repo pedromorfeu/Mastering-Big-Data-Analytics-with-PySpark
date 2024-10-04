@@ -130,3 +130,7 @@ ENV/
 */bdist.*
 */packaged_application_example/build/lib/src/
 /Section 4 - Machine Learning with Spark MLlib/.ipynb_checkpoints/
+
+.local
+.jupyter
+.ipython

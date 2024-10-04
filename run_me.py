@@ -247,6 +247,8 @@ class Course:
         """Retrieves docker image (if available)
         :return: docker image object
         """
+        logger.info("Images list:")
+        logger.info(self.client.images.list())
         logger.info("Checking if Docker image is already set-up")
         if self.get_image(self.tag):
             self.image.reload()
